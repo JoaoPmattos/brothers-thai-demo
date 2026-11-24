@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cloud.umami.is; style-src 'self'; font-src 'self'; img-src 'self' data:; frame-src https://www.google.com; connect-src 'self' https://cloud.umami.is https://api-gateway.umami.dev; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>Muay Thai e Jiu-Jitsu em Araraquara | Brothers Thai</title>
+    <meta name="description" content="Brothers Thai: Muay Thai e Jiu-Jitsu em Araraquara/SP com 3 unidades, turmas para todos os níveis, aula infantil e personal. Agende sua aula experimental pelo WhatsApp.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://brothersthai.netlify.app/">
+    <meta name="theme-color" content="#0b0b0c">
+
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="Araraquara">
+    <meta name="geo.position" content="-21.8037192;-48.1636942">
+    <meta name="ICBM" content="-21.8037192, -48.1636942">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Brothers Thai">
+    <meta property="og:title" content="Brothers Thai | Muay Thai e Jiu-Jitsu em Araraquara">
+    <meta property="og:description" content="3 unidades em Araraquara, turmas para todos os níveis. Agende sua aula experimental pelo WhatsApp.">
+    <meta property="og:url" content="https://brothersthai.netlify.app/">
+    <meta property="og:image" content="https://brothersthai.netlify.app/img/og-brothers-thai.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Mestres Leandro (Muay Thai) e Rafael (Jiu-Jitsu) da Brothers Thai em Araraquara">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="./img/logo-bt.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="./img/logo-bt.jpg">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="preload" href="./fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" type="image/webp" href="./img/hero-turma-768.webp" imagesrcset="/img/hero-turma-768.webp 768w, /img/hero-turma-1440.webp 1440w" imagesizes="100vw">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "SportsOrganization",
+                "@id": "https://brothersthai.netlify.app/#org",
+                "name": "Brothers Thai",
+                "alternateName": "Team Brothers - Muay Thai e Jiu-Jitsu",
+                "url": "https://brothersthai.netlify.app/",
+                "logo": "https://brothersthai.netlify.app/img/logo-bt.jpg",
+                "image": "https://brothersthai.netlify.app/img/og-brothers-thai.jpg",
+                "sport": ["Muay Thai", "Jiu-Jitsu"],
+                "sameAs": ["https://www.instagram.com/brothers_thai_team/"],
+                "subOrganization": [
+                    { "@id": "https://brothersthai.netlify.app/#unidade-1" },
+                    { "@id": "https://brothersthai.netlify.app/#unidade-2" },
+                    { "@id": "https://brothersthai.netlify.app/#unidade-3" }
+                ]
+            },
+            {
+                "@type": "SportsActivityLocation",
+                "@id": "https://brothersthai.netlify.app/#unidade-1",
+                "name": "Brothers Thai - Unidade 1",
+                "url": "https://brothersthai.netlify.app/",
+                "image": "https://brothersthai.netlify.app/img/og-brothers-thai.jpg",
+                "telephone": "+55-16-99793-3828",
+                "priceRange": "$$",
+                "parentOrganization": { "@id": "https://brothersthai.netlify.app/#org" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Av. Alberto Santos Dumont, 199",
+                    "addressLocality": "Araraquara",
+                    "addressRegion": "SP",
+                    "postalCode": "14807-219",
+                    "addressCountry": "BR"
+                },
+                "geo": { "@type": "GeoCoordinates", "latitude": -21.8037192, "longitude": -48.1636942 },
+                "hasMap": "https://www.google.com/maps/search/?api=1&query=Av.+Alberto+Santos+Dumont,+199,+Araraquara+-+SP,+14807-219",
+                "openingHoursSpecification": [
+                    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "06:00", "closes": "10:00" },
+                    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "16:00", "closes": "22:00" },
+                    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "17:00" }
+                ]
+            },
+            {
+                "@type": "SportsActivityLocation",
+                "@id": "https://brothersthai.netlify.app/#unidade-2",
+                "name": "Brothers Thai - Unidade 2 (Jardim Imperador)",
+                "url": "https://brothersthai.netlify.app/",
+                "image": "https://brothersthai.netlify.app/img/og-brothers-thai.jpg",
+                "telephone": "+55-16-99707-1255",
+                "priceRange": "$$",
+                "parentOrganization": { "@id": "https://brothersthai.netlify.app/#org" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "R. Maurício Galli, 3488 A - Jardim Imperador",
+                    "addressLocality": "Araraquara",
+                    "addressRegion": "SP",
+                    "postalCode": "14806-245",
+                    "addressCountry": "BR"
+                },
+                "geo": { "@type": "GeoCoordinates", "latitude": -21.744609, "longitude": -48.1575456 },
+                "hasMap": "https://www.google.com/maps/search/?api=1&query=R.+Maur%C3%ADcio+Galli,+3488a,+Araraquara+-+SP,+14806-245"
+            },
+            {
+                "@type": "SportsActivityLocation",
+                "@id": "https://brothersthai.netlify.app/#unidade-3",
+                "name": "Brothers Thai - Unidade 3 (Parque Igacaba)",
+                "url": "https://brothersthai.netlify.app/",
+                "image": "https://brothersthai.netlify.app/img/og-brothers-thai.jpg",
+                "telephone": "+55-16-99733-0265",
+                "priceRange": "$$",
+                "parentOrganization": { "@id": "https://brothersthai.netlify.app/#org" },
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Av. Antônio Honório Real, 882 - Parque Igacaba",
+                    "addressLocality": "Araraquara",
+                    "addressRegion": "SP",
+                    "postalCode": "14804-390",
+                    "addressCountry": "BR"
+                },
+                "geo": { "@type": "GeoCoordinates", "latitude": -21.7673298, "longitude": -48.1996951 },
+                "hasMap": "https://www.google.com/maps/search/?api=1&query=Av.+Ant%C3%B4nio+Hon%C3%B3rio+Real,+882,+Araraquara+-+SP,+14804-390"
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://brothersthai.netlify.app/#site",
+                "url": "https://brothersthai.netlify.app/",
+                "name": "Brothers Thai",
+                "inLanguage": "pt-BR",
+                "publisher": { "@id": "https://brothersthai.netlify.app/#org" }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    { "@type": "Question", "name": "Preciso ter experiência para começar?", "acceptedAnswer": { "@type": "Answer", "text": "Não. As turmas recebem iniciantes e os professores adaptam o treino ao seu nível e condicionamento. Você evolui no seu ritmo." } },
+                    { "@type": "Question", "name": "Como agendo a aula experimental?", "acceptedAnswer": { "@type": "Answer", "text": "Chame a Brothers Thai no WhatsApp, diga a modalidade e a unidade de preferência e a equipe confirma o melhor horário para você." } },
+                    { "@type": "Question", "name": "O que preciso levar no primeiro treino?", "acceptedAnswer": { "@type": "Answer", "text": "Roupa confortável de treino, garrafa de água e toalha. Luvas, bandagem e kimono podem ficar para depois: a equipe orienta o que comprar quando você decidir continuar." } },
+                    { "@type": "Question", "name": "A aula experimental é paga?", "acceptedAnswer": { "@type": "Answer", "text": "Não. A primeira aula é grátis e sem compromisso, em qualquer modalidade e unidade. É só agendar pelo WhatsApp." } },
+                    { "@type": "Question", "name": "Tem aula para crianças?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A turma infantil treina aos sábados às 10h, com foco em disciplina, coordenação e respeito." } },
+                    { "@type": "Question", "name": "Mulheres podem treinar?", "acceptedAnswer": { "@type": "Answer", "text": "Com certeza. As turmas são mistas e o ambiente é de respeito. Muitas alunas começaram sem experiência nenhuma." } },
+                    { "@type": "Question", "name": "Onde ficam as unidades?", "acceptedAnswer": { "@type": "Answer", "text": "São 3 unidades em Araraquara/SP: Av. Alberto Santos Dumont, 199; R. Maurício Galli, 3488 A (Jardim Imperador); e Av. Antônio Honório Real, 882 (Parque Igacaba)." } }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- Ícones (sprite SVG local: sem bibliotecas externas) -->
+    <svg width="0" height="0" class="sr-only" aria-hidden="true" focusable="false">
+        <symbol id="i-whats" viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41Z"/></symbol>
+        <symbol id="i-insta" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.3"/></g><circle cx="17.6" cy="6.4" r="1.3"/></symbol>
+        <symbol id="i-google" viewBox="0 0 24 24"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.85 3.19-1.79 4.13-1.15 1.15-2.93 2.4-6.05 2.4-4.83 0-8.6-3.89-8.6-8.72s3.77-8.72 8.6-8.72c2.6 0 4.51 1.03 5.91 2.35l2.31-2.31C18.75 1.44 16.13 0 12.48 0 5.87 0 .31 5.39.31 12s5.56 12 12.17 12c3.57 0 6.27-1.17 8.37-3.36 2.16-2.16 2.84-5.21 2.84-7.67 0-.76-.05-1.47-.17-2.05H12.48z"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g></symbol>
+        <symbol id="i-route" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 11l19-9-9 19-2-8-8-2z"/></symbol>
+        <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></g></symbol>
+        <symbol id="i-glove" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M6 13V9a6 6 0 0 1 6-6h1a5 5 0 0 1 5 5v1.5a3 3 0 0 1 2 2.83V14a6 6 0 0 1-6 6h-3a5 5 0 0 1-5-5v-2Zm0 0h7m5-3.5h-3a2 2 0 0 0-2 2V14M8 20v2h8v-2"/></symbol>
+        <symbol id="i-gi" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M8 3l4 6 4-6 5 3-2 5-3-1v11H8V10l-3 1-2-5 5-3Zm0 11h8m-5 0-1 4m3-4 1 4"/></symbol>
+        <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="7" r="3.5"/><path d="M2.5 21v-1a6.5 6.5 0 0 1 13 0v1"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.6a5 5 0 0 1 4.5 5V21"/></g></symbol>
+        <symbol id="i-building" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-5h6v5M9 10h.01M15 10h.01"/></g></symbol>
+        <symbol id="i-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M18 15l-6-6-6 6"/></symbol>
+    </svg>
+
+    <!-- ================= TOPO ================= -->
+    <header class="header" id="main-header">
+        <div class="container header-inner">
+            <a href="#inicio" class="logo" aria-label="Brothers Thai - início">
+                <img src="./img/logo-bt.webp" alt="" width="46" height="46">
+                <span>BROTHERS <span class="hl">THAI</span></span>
+            </a>
+
+            <button class="menu-toggle" id="mobile-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav" id="nav-menu" aria-label="Menu principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#modalidades">Modalidades</a>
+                <a href="#kids">Kids</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#horarios">Horários</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#como-comecar" class="nav-highlight"><span class="dot" aria-hidden="true"></span>Aula experimental</a>
+                <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." class="btn-solid btn-sm nav-cta" target="_blank" rel="noopener noreferrer">Agendar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ================= HERO ================= -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg" aria-hidden="true">
+                <img src="./img/hero-turma-768.webp" srcset="./img/hero-turma-768.webp 768w, ./img/hero-turma-1440.webp 1440w" sizes="100vw" alt="" width="1440" height="1440" fetchpriority="high">
+            </div>
+
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-badge"><img src="./img/logo-bt.webp" alt="" width="28" height="28"> Team Brothers · <strong class="badge-free">1ª aula grátis</strong></p>
+                    <h1><span class="nowrap">Muay Thai</span> e <span class="nowrap">Jiu-Jitsu</span> em <span class="hl">Araraquara</span></h1>
+                    <p class="hero-text">Técnica, disciplina e um time que te acompanha do primeiro treino à faixa preta. Turmas para iniciantes, avançados e crianças.</p>
+
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." class="btn-whats btn-pulse" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg>
+                            Agendar aula grátis
+                        </a>
+                        <a href="#horarios" class="btn-ghost">Ver horários</a>
+                    </div>
+
+                    <div class="hero-proof">
+                        <span class="live-status" id="live-status" role="status" hidden><span class="live-dot" aria-hidden="true"></span><span class="live-text"></span></span>
+                        <a href="https://share.google/JyimrFmqNP4rsb4Jq" target="_blank" rel="noopener noreferrer">
+                            <span class="stars" aria-hidden="true">★★★★★</span> 4,9 · 46 avaliações no Google
+                        </a>
+                        <span><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg> 3 unidades</span>
+                        <span><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg> Todas as idades</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <figure class="hero-card hero-card-back" aria-hidden="true">
+                        <img src="./img/luvas-600.webp" srcset="./img/luvas-600.webp 600w, ./img/luvas-900.webp 900w" sizes="(min-width: 1200px) 340px, 28vw" alt="" width="900" height="1125">
+                    </figure>
+                    <figure class="hero-card hero-card-front">
+                        <!-- FOTO ILUSTRATIVA: trocar por img/fachada-600.webp e fachada-748.webp reais (4:5) e apagar o selo -->
+                        <img src="./img/fachada-600.webp" srcset="./img/fachada-600.webp 600w, ./img/fachada-748.webp 748w" sizes="(min-width: 1200px) 400px, 32vw" alt="Espaço de treino da Brothers Thai em Araraquara" width="748" height="935">
+                        <span class="photo-note">Foto ilustrativa</span>
+                        <figcaption><small>Unidade 1</small>Av. Alberto Santos Dumont, 199</figcaption>
+                    </figure>
+                    <span class="hero-chip" aria-hidden="true"><svg class="icon"><use href="#i-glove"/></svg> Muay Thai · Jiu-Jitsu</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SOBRE ================= -->
+        <section id="sobre" class="section-tint">
+            <div class="container about-grid">
+                <div class="about-text reveal">
+                    <p class="eyebrow">Nossa história</p>
+                    <h2 class="section-title">Uma família de lutadores em <span class="hl">3 bairros</span> da cidade</h2>
+                    <p>A Brothers Thai é referência em Muay Thai e Jiu-Jitsu em Araraquara, com treinos para todas as idades e níveis. Nosso propósito é promover qualidade de vida, unindo técnica, disciplina e bem-estar físico e mental.</p>
+                    <p>Hoje são <strong>três unidades</strong>, com tatames de alta densidade e um ambiente de evolução constante: aqui ninguém treina sozinho.</p>
+
+                    <ul class="check-list">
+                        <li><span>Professores graduados e presentes em todas as aulas</span></li>
+                        <li><span>Iniciante treina junto, mas no ritmo dele</span></li>
+                        <li><span>Ambiente familiar e respeitoso, para homens, mulheres e crianças</span></li>
+                    </ul>
+
+                    <div class="stats">
+                        <div class="stat"><strong>3</strong><span>Unidades</span></div>
+                        <div class="stat"><strong>2</strong><span>Modalidades</span></div>
+                        <div class="stat"><strong>4,9★</strong><span>No Google</span></div>
+                    </div>
+                </div>
+
+                <div class="about-media reveal reveal-d2">
+                    <div class="carousel" id="about-carousel" role="region" aria-roledescription="carrossel" aria-label="Fotos das turmas da Brothers Thai">
+                        <div class="carousel-track" tabindex="0">
+                            <figure class="carousel-slide" aria-label="1 de 3">
+                                <img src="./img/slide-muaythai-600.webp" srcset="./img/slide-muaythai-600.webp 600w, ./img/slide-muaythai-900.webp 900w, ./img/slide-muaythai-1152.webp 1152w" sizes="(min-width: 993px) 510px, 92vw" alt="Turma de Muay Thai da Brothers Thai, com adultos e crianças, no tatame em Araraquara" width="800" height="1000" loading="lazy">
+                                <figcaption>Turma de Muay Thai</figcaption>
+                            </figure>
+                            <figure class="carousel-slide" aria-label="2 de 3">
+                                <img src="./img/slide-jiu-600.webp" srcset="./img/slide-jiu-600.webp 600w, ./img/slide-jiu-900.webp 900w, ./img/slide-jiu-1200.webp 1200w" sizes="(min-width: 993px) 510px, 92vw" alt="Turma de Jiu-Jitsu da Brothers Thai de kimono, com faixas brancas, azul e preta" width="800" height="1000" loading="lazy">
+                                <figcaption>Turma de Jiu-Jitsu</figcaption>
+                            </figure>
+                            <figure class="carousel-slide" aria-label="3 de 3">
+                                <img src="./img/slide-mestres-600.webp" srcset="./img/slide-mestres-600.webp 600w, ./img/slide-mestres-900.webp 900w, ./img/slide-mestres-1170.webp 1170w" sizes="(min-width: 993px) 510px, 92vw" alt="Mestre Leandro, de Muay Thai, e Mestre Rafael, de Jiu-Jitsu, no tatame da Brothers Thai" width="1170" height="1462" loading="lazy">
+                                <figcaption>Mestres Leandro e Rafael</figcaption>
+                            </figure>
+                        </div>
+                        <button type="button" class="carousel-btn prev" aria-label="Foto anterior"></button>
+                        <button type="button" class="carousel-btn next" aria-label="Próxima foto"></button>
+                        <div class="carousel-dots" role="tablist" aria-label="Escolher foto"></div>
+                    </div>
+                    <img class="seal" src="./img/logo-bt.webp" alt="" width="84" height="84" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= COMO COMEÇAR ================= -->
+        <section id="como-comecar" class="section-dark">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Aula experimental</p>
+                    <h2 class="section-title">Comece em <span class="hl">3 passos</span></h2>
+                    <p class="section-sub">A aula experimental é <strong>grátis</strong>, sem compromisso e sem precisar de experiência. Você conhece o tatame, a equipe e sente o treino antes de decidir.</p>
+                </div>
+
+                <ol class="journey">
+                    <li class="journey-step reveal">
+                        <span class="journey-num" aria-hidden="true">1</span>
+                        <div class="journey-card">
+                            <h3>Chame no WhatsApp</h3>
+                            <p>Diga a modalidade e a unidade mais perto de você. A equipe responde e tira suas dúvidas.</p>
+                        </div>
+                    </li>
+                    <li class="journey-step reveal reveal-d1">
+                        <span class="journey-num" aria-hidden="true">2</span>
+                        <div class="journey-card">
+                            <h3>Faça a aula experimental</h3>
+                            <p>Venha com roupa confortável e água. O professor adapta o treino ao seu nível.</p>
+                        </div>
+                    </li>
+                    <li class="journey-step reveal reveal-d2">
+                        <span class="journey-num" aria-hidden="true">3</span>
+                        <div class="journey-card">
+                            <h3>Escolha seu plano</h3>
+                            <p>Gostou? A gente monta o melhor horário e plano para sua rotina. Daí é só evoluir.</p>
+                        </div>
+                    </li>
+                </ol>
+
+                <div class="section-actions reveal">
+                    <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." class="btn-solid btn-pulse" target="_blank" rel="noopener noreferrer">Quero minha aula grátis</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= MODALIDADES ================= -->
+        <section id="modalidades" class="section-feature">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Modalidades</p>
+                    <h2 class="section-title">Escolha sua <span class="hl">arte</span></h2>
+                    <p class="section-sub">Turmas de Muay Thai e Jiu-Jitsu nas 3 unidades, além de aulas personal 1 a 1 com os mestres.</p>
+                </div>
+
+                <div class="mod-grid">
+                    <article class="mod-card reveal">
+                        <div class="mod-icon"><svg class="icon" aria-hidden="true"><use href="#i-glove"/></svg></div>
+                        <h3>Muay Thai</h3>
+                        <span class="mod-tag">A arte das oito armas</span>
+                        <p>Socos, chutes, joelhadas e cotoveladas. Condicionamento intenso, perda de peso e muita confiança.</p>
+                        <ul class="check-list">
+                            <li><span>Queima calórica alta e resistência</span></li>
+                            <li><span>Técnica de golpes do zero ao avançado</span></li>
+                            <li><span>Turmas de manhã e à noite</span></li>
+                        </ul>
+                        <div class="mod-actions">
+                            <a href="./muay-thai-araraquara/" class="btn-solid btn-block">Conhecer o Muay Thai</a>
+                            <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20gr%C3%A1tis%20de%20Muay%20Thai." class="btn-outline btn-block" target="_blank" rel="noopener noreferrer">Agendar aula grátis</a>
+                        </div>
+                    </article>
+
+                    <article class="mod-card reveal reveal-d1">
+                        <div class="mod-icon"><svg class="icon" aria-hidden="true"><use href="#i-gi"/></svg></div>
+                        <h3>Jiu-Jitsu</h3>
+                        <span class="mod-tag">A arte suave</span>
+                        <p>Alavancas, raspagens e finalizações. Defesa pessoal real, raciocínio e controle, com ou sem força.</p>
+                        <ul class="check-list">
+                            <li><span>Defesa pessoal que funciona</span></li>
+                            <li><span>Graduação por faixas, com acompanhamento</span></li>
+                            <li><span>Turmas à noite e aos sábados</span></li>
+                        </ul>
+                        <div class="mod-actions">
+                            <a href="./jiu-jitsu-araraquara/" class="btn-solid btn-block">Conhecer o Jiu-Jitsu</a>
+                            <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20gr%C3%A1tis%20de%20Jiu-Jitsu." class="btn-outline btn-block" target="_blank" rel="noopener noreferrer">Agendar aula grátis</a>
+                        </div>
+                    </article>
+
+                    <article class="mod-card reveal reveal-d2" id="personal">
+                        <div class="mod-icon"><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg></div>
+                        <h3>Aula personal</h3>
+                        <span class="mod-tag">Treino 1 a 1</span>
+                        <p>Evolução acelerada com treino exclusivo. Escolha a modalidade e fale direto com o mestre.</p>
+                        <div class="mod-chips">
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg> Horário flexível</span>
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg> 100% individual</span>
+                        </div>
+                        <ul class="check-list">
+                            <li><span>Plano montado para o seu objetivo</span></li>
+                            <li><span>Correção técnica em cada detalhe</span></li>
+                        </ul>
+                        <div class="mod-actions">
+                            <a href="https://wa.me/5516997933828?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20tenho%20interesse%20na%20aula%20personal%20de%20Muay%20Thai." class="btn-outline btn-block" target="_blank" rel="noopener noreferrer">Personal de Muay Thai</a>
+                            <a href="https://wa.me/5516996155032?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20tenho%20interesse%20na%20aula%20personal%20de%20Jiu-Jitsu." class="btn-outline btn-block" target="_blank" rel="noopener noreferrer">Personal de Jiu-Jitsu</a>
+                        </div>
+                    </article>
+                </div>
+
+                <nav class="treat-links reveal" aria-label="Páginas das modalidades">
+                    <span>Saiba mais sobre cada modalidade:</span>
+                    <a href="./muay-thai-araraquara/">Muay Thai</a>
+                    <a href="./jiu-jitsu-araraquara/">Jiu-Jitsu</a>
+                    <a href="./luta-infantil-araraquara/">Luta para crianças</a>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ================= KIDS ================= -->
+        <section id="kids" class="section-tint">
+            <div class="container kids-grid">
+                <figure class="kids-media reveal">
+                    <img src="./img/kids-600.webp" srcset="./img/kids-600.webp 600w, ./img/kids-900.webp 900w" sizes="(min-width: 993px) 460px, 92vw" alt="Turma infantil da Brothers Thai com os professores no tatame em Araraquara" width="900" height="900" loading="lazy">
+                    <span class="kids-tag">Sábados · 10h</span>
+                </figure>
+                <div class="kids-text reveal reveal-d1">
+                    <p class="eyebrow">Brothers Kids</p>
+                    <h2 class="section-title">Luta para <span class="hl">crianças</span>, com disciplina e diversão</h2>
+                    <p class="section-sub">Na turma infantil a criança gasta energia, ganha confiança e aprende respeito, sempre com professor acompanhando de perto.</p>
+                    <ul class="kids-benefits">
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-star"/></svg><span><strong>Disciplina e foco</strong> que aparecem na escola e em casa</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><span><strong>Amizade e respeito</strong> com os colegas e o professor</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-glove"/></svg><span><strong>Coordenação e condicionamento</strong> de um jeito divertido</span></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><span><strong>Confiança</strong> para se defender e lidar com o bullying</span></li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20gr%C3%A1tis%20para%20meu%20filho(a)%20na%20turma%20infantil." class="btn-whats btn-pulse" target="_blank" rel="noopener noreferrer">
+                            <svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg>
+                            Aula grátis para meu filho
+                        </a>
+                        <a href="./luta-infantil-araraquara/" class="btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EQUIPE ================= -->
+        <section id="equipe" class="section-dark">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Quem comanda o tatame</p>
+                    <h2 class="section-title">Nossa <span class="hl">equipe</span></h2>
+                    <p class="section-sub">Escolha a unidade para ver os mestres e instrutores.</p>
+                </div>
+
+                <div class="tabs" role="tablist" aria-label="Unidades">
+                    <button class="tab" role="tab" id="tab-u1" aria-controls="painel-u1" aria-selected="true">Unidade 1<small>Santos Dumont</small></button>
+                    <button class="tab" role="tab" id="tab-u2" aria-controls="painel-u2" aria-selected="false" tabindex="-1">Unidade 2<small>Jd. Imperador</small></button>
+                    <button class="tab" role="tab" id="tab-u3" aria-controls="painel-u3" aria-selected="false" tabindex="-1">Unidade 3<small>Pq. Igacaba</small></button>
+                </div>
+
+                <!-- Unidade 1 -->
+                <div class="team-panel" id="painel-u1" role="tabpanel" aria-labelledby="tab-u1">
+                    <div class="team-grid">
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-leandro.webp" alt="Mestre Leandro, mestre de Muay Thai da Brothers Thai em Araraquara" width="480" height="480" loading="lazy">
+                                <span class="team-belt">Muay Thai</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Leandro</h3>
+                                <p>Mestre de Muay Thai</p>
+                            </div>
+                        </article>
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-rafael.webp" alt="Mestre Rafael, mestre de Jiu-Jitsu da Brothers Thai em Araraquara" width="480" height="480" loading="lazy">
+                                <span class="team-belt">Jiu-Jitsu</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Rafael</h3>
+                                <p>Mestre de Jiu-Jitsu</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="team-sub">
+                        <h3>Instrutores</h3>
+                        <p>Suporte especializado em cada treino</p>
+                    </div>
+                    <div class="team-grid team-grid-sm">
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/prof-christofer.webp" alt="Prof. Christofer, instrutor de Muay Thai da Brothers Thai em Araraquara" width="440" height="440" loading="lazy">
+                                <span class="team-belt">Muay Thai</span>
+                            </div>
+                            <div class="team-body">
+                                <h4>Prof. Christofer</h4>
+                                <p>Instrutor</p>
+                            </div>
+                        </article>
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/prof-marcao.webp" alt="Prof. Marcão, instrutor da Brothers Thai em Araraquara" width="300" height="300" loading="lazy">
+                            </div>
+                            <div class="team-body">
+                                <h4>Prof. Marcão</h4>
+                                <p>Instrutor</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Unidade 2 -->
+                <div class="team-panel" id="painel-u2" role="tabpanel" aria-labelledby="tab-u2" hidden>
+                    <div class="team-grid">
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-rafael.webp" alt="Mestre Rafael, mestre de Jiu-Jitsu da Brothers Thai em Araraquara" width="480" height="480" loading="lazy">
+                                <span class="team-belt">Jiu-Jitsu</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Rafael</h3>
+                                <p>Mestre de Jiu-Jitsu</p>
+                            </div>
+                        </article>
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-weverton.webp" alt="Mestre Weverton, mestre de Muay Thai da Brothers Thai em Araraquara" width="320" height="320" loading="lazy">
+                                <span class="team-belt">Muay Thai</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Weverton</h3>
+                                <p>Mestre de Muay Thai</p>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- Instrutores da Unidade 2: Prof. Lucas removido até o dono confirmar (cópia no Backups/09) -->
+                </div>
+
+                <!-- Unidade 3 -->
+                <div class="team-panel" id="painel-u3" role="tabpanel" aria-labelledby="tab-u3" hidden>
+                    <div class="team-grid">
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-mutante.webp" alt="Mestre Mutante, mestre de Jiu-Jitsu da Brothers Thai em Araraquara" width="420" height="420" loading="lazy">
+                                <span class="team-belt">Jiu-Jitsu</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Mutante</h3>
+                                <p>Mestre de Jiu-Jitsu</p>
+                            </div>
+                        </article>
+                        <article class="team-card">
+                            <div class="team-photo">
+                                <img src="./img/mestre-richard.webp" alt="Mestre Richard, mestre de Muay Thai da Brothers Thai em Araraquara" width="480" height="480" loading="lazy">
+                                <span class="team-belt">Muay Thai</span>
+                            </div>
+                            <div class="team-body">
+                                <h3>Mestre Richard</h3>
+                                <p>Mestre de Muay Thai</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= HORÁRIOS ================= -->
+        <section id="horarios" class="section-tint">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Programação semanal</p>
+                    <h2 class="section-title">Grade de <span class="hl">horários</span></h2>
+                    <p class="section-sub">Mesma programação nas 3 unidades. O dia de hoje aparece destacado.</p>
+                </div>
+
+                <p class="scroll-hint">Arraste a tabela para o lado para ver todos os dias →</p>
+                <div class="schedule-wrap reveal" tabindex="0" role="region" aria-label="Grade de horários">
+                    <table class="schedule" id="schedule">
+                        <caption>Horários sujeitos a alteração em feriados. Confirme pelo WhatsApp.</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"><span class="sr-only">Horário</span></th>
+                                <th scope="col" data-day="1">Seg</th>
+                                <th scope="col" data-day="2">Ter</th>
+                                <th scope="col" data-day="3">Qua</th>
+                                <th scope="col" data-day="4">Qui</th>
+                                <th scope="col" data-day="5">Sex</th>
+                                <th scope="col" data-day="6">Sáb</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><th scope="row">06h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">07h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">08h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">09h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">10h</th><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-kids">Infantil</span></td></tr>
+                            <tr><th scope="row">16h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-jj">Jiu-Jitsu</span></td></tr>
+                            <tr><th scope="row">17h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">18h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">19h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">20h</th><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-jj">Jiu-Jitsu</span></td><td><span class="tag tag-mt">Muay Thai</span></td><td><span class="tag tag-jj">Jiu-Jitsu</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td></tr>
+                            <tr><th scope="row">21h</th><td><span class="tag tag-jj">Jiu-Jitsu</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-jj">Jiu-Jitsu</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td><td><span class="tag tag-off">—</span></td></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <ul class="schedule-legend">
+                    <li><span class="tag tag-mt">Muay Thai</span></li>
+                    <li><span class="tag tag-jj">Jiu-Jitsu</span></li>
+                    <li><span class="tag tag-kids">Infantil</span></li>
+                    <li><span class="tag tag-off">—</span> Sem aula</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ================= AVALIAÇÕES ================= -->
+        <section id="avaliacoes" class="section-reviews">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Depoimentos reais</p>
+                    <h2 class="section-title">O que dizem nossos <span class="hl">alunos</span></h2>
+                    <a href="https://share.google/JyimrFmqNP4rsb4Jq" class="google-score" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" aria-hidden="true"><use href="#i-google"/></svg>
+                        <strong>4,9</strong>
+                        <span class="stars" aria-hidden="true">★★★★★</span>
+                        <small>46 avaliações no Google</small>
+                    </a>
+                </div>
+
+                <div class="reviews-grid">
+                    <figure class="review-card reveal">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Lugar top, professores atenciosos e sempre dispostos a nos ajudar. Onde cansamos o corpo e descansamos a mente.</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">BS</span><span><strong>Bruna Suares</strong><small>Aluna · Google</small></span></figcaption>
+                    </figure>
+                    <figure class="review-card reveal reveal-d1">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Eu amo esse lugar! Aula top com um mestre mais TOP ainda, muito atencioso, competente, e uma preocupação e cuidado com cada aluno que é impressionante!</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">VA</span><span><strong>Valéria Andrade</strong><small>Aluna · Google</small></span></figcaption>
+                    </figure>
+                    <figure class="review-card reveal reveal-d2">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Tinha muito receio de fazer Muay Thai por vários motivos, mas agora que comecei não paro mais. Professores muito gente boa, recomendo de olhos fechados!</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">CL</span><span><strong>Carla Lopes</strong><small>Local Guide · Google</small></span></figcaption>
+                    </figure>
+                    <figure class="review-card reveal">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Academia bem estruturada, professor dedicado e preocupado não só com o lado técnico, mas também com o pessoal. Salvou minha vida, tanto pelo esporte quanto pela amizade.</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">NN</span><span><strong>Nei Nascimento</strong><small>Aluno · Google</small></span></figcaption>
+                    </figure>
+                    <figure class="review-card reveal reveal-d1">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Lugar incrível para se treinar, professor muito bom e qualificado, dá muita atenção a todos os alunos. O melhor!</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">GT</span><span><strong>Gabriel Tartarini</strong><small>Aluno · Google</small></span></figcaption>
+                    </figure>
+                    <figure class="review-card reveal reveal-d2">
+                        <span class="stars" aria-label="5 estrelas">★★★★★</span>
+                        <blockquote>Professores atenciosos, ambiente família, boa localização e profissionais capacitados. Excelente academia!</blockquote>
+                        <figcaption class="review-author"><span class="avatar" aria-hidden="true">RA</span><span><strong>Rafael Aniceto</strong><small>Aluno · Google</small></span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="section-actions reveal">
+                    <a href="https://share.google/JyimrFmqNP4rsb4Jq" class="btn-outline" target="_blank" rel="noopener noreferrer">Ver todas no Google</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= DÚVIDAS ================= -->
+        <section id="duvidas" class="section-dark">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Dúvidas frequentes</p>
+                    <h2 class="section-title">Antes do <span class="hl">primeiro treino</span></h2>
+                </div>
+
+                <div class="faq reveal">
+                    <details>
+                        <summary>Preciso ter experiência para começar?</summary>
+                        <div class="faq-body"><p>Não. As turmas recebem iniciantes e os professores adaptam o treino ao seu nível e condicionamento. Você evolui no seu ritmo.</p></div>
+                    </details>
+                    <details>
+                        <summary>Como agendo a aula experimental?</summary>
+                        <div class="faq-body"><p>Chame a Brothers Thai no <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." target="_blank" rel="noopener noreferrer">WhatsApp</a>, diga a modalidade e a unidade de preferência e a equipe confirma o melhor horário para você.</p></div>
+                    </details>
+                    <details>
+                        <summary>O que preciso levar no primeiro treino?</summary>
+                        <div class="faq-body"><p>Roupa confortável de treino, garrafa de água e toalha. Luvas, bandagem e kimono podem ficar para depois: a equipe orienta o que comprar quando você decidir continuar.</p></div>
+                    </details>
+                    <details>
+                        <summary>A aula experimental é paga?</summary>
+                        <div class="faq-body"><p>Não. A primeira aula é <strong>grátis</strong> e sem compromisso, em qualquer modalidade e unidade. É só agendar pelo WhatsApp.</p></div>
+                    </details>
+                    <details>
+                        <summary>Tem aula para crianças?</summary>
+                        <div class="faq-body"><p>Sim. A turma infantil treina aos sábados às 10h, com foco em disciplina, coordenação e respeito. Veja tudo sobre a <a href="./luta-infantil-araraquara/">aula de luta para crianças</a>.</p></div>
+                    </details>
+                    <details>
+                        <summary>Mulheres podem treinar?</summary>
+                        <div class="faq-body"><p>Com certeza. As turmas são mistas e o ambiente é de respeito. Muitas alunas começaram sem experiência nenhuma.</p></div>
+                    </details>
+                    <details>
+                        <summary>Onde ficam as unidades?</summary>
+                        <div class="faq-body"><p>São 3 unidades em Araraquara/SP: Av. Alberto Santos Dumont, 199; R. Maurício Galli, 3488 A (Jardim Imperador); e Av. Antônio Honório Real, 882 (Parque Igacaba). Veja os mapas em <a href="#unidades">Unidades</a>.</p></div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= UNIDADES ================= -->
+        <section id="unidades" class="section-red">
+            <div class="container">
+                <div class="section-head reveal">
+                    <p class="eyebrow eyebrow-light">Onde treinar</p>
+                    <h2 class="section-title">Nossas unidades em Araraquara</h2>
+                    <p class="section-sub section-sub-light">Escolha a Brothers Thai mais perto de você.</p>
+                </div>
+
+                <div class="units-grid">
+                    <article class="unit-card reveal">
+                        <div class="unit-head">
+                            <span class="unit-badge">Unidade 1</span>
+                            <h3>Santos Dumont</h3>
+                        </div>
+                        <div class="unit-links">
+                            <a class="contact-item" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Alberto+Santos+Dumont,+199,+Araraquara+-+SP,+14807-219" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+                                Av. Alberto Santos Dumont, 199
+                            </a>
+                            <a class="contact-item" href="tel:+5516997933828">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                                (16) 99793-3828
+                            </a>
+                        </div>
+                        <a class="unit-page-link" href="./unidade-santos-dumont-araraquara/">Página da unidade</a>
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps?q=Av.+Alberto+Santos+Dumont,+199,+Araraquara+-+SP,+14807-219&amp;output=embed" title="Mapa da Brothers Thai Unidade 1, Av. Alberto Santos Dumont, 199, Araraquara" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            <a class="map-route" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Alberto+Santos+Dumont,+199,+Araraquara+-+SP,+14807-219" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg> Traçar rota</a>
+                        </div>
+                    </article>
+
+                    <article class="unit-card reveal reveal-d1">
+                        <div class="unit-head">
+                            <span class="unit-badge">Unidade 2</span>
+                            <h3>Jardim Imperador</h3>
+                        </div>
+                        <div class="unit-links">
+                            <a class="contact-item" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+Maur%C3%ADcio+Galli,+3488a,+Araraquara+-+SP,+14806-245" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+                                R. Maurício Galli, 3488 A
+                            </a>
+                            <a class="contact-item" href="tel:+5516997071255">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                                (16) 99707-1255
+                            </a>
+                        </div>
+                        <a class="unit-page-link" href="./unidade-jardim-imperador-araraquara/">Página da unidade</a>
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps?q=R.+Maur%C3%ADcio+Galli,+3488a,+Araraquara+-+SP,+14806-245&amp;output=embed" title="Mapa da Brothers Thai Unidade 2, R. Maurício Galli, 3488 A, Jardim Imperador, Araraquara" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            <a class="map-route" href="https://www.google.com/maps/dir/?api=1&amp;destination=R.+Maur%C3%ADcio+Galli,+3488a,+Araraquara+-+SP,+14806-245" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg> Traçar rota</a>
+                        </div>
+                    </article>
+
+                    <article class="unit-card reveal reveal-d2">
+                        <div class="unit-head">
+                            <span class="unit-badge">Unidade 3</span>
+                            <h3>Parque Igacaba</h3>
+                        </div>
+                        <div class="unit-links">
+                            <a class="contact-item" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Ant%C3%B4nio+Hon%C3%B3rio+Real,+882,+Araraquara+-+SP,+14804-390" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+                                Av. Antônio Honório Real, 882
+                            </a>
+                            <a class="contact-item" href="tel:+5516997330265">
+                                <span class="contact-ico"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+                                (16) 99733-0265
+                            </a>
+                        </div>
+                        <a class="unit-page-link" href="./unidade-parque-igacaba-araraquara/">Página da unidade</a>
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps?q=Av.+Ant%C3%B4nio+Hon%C3%B3rio+Real,+882,+Araraquara+-+SP,+14804-390&amp;output=embed" title="Mapa da Brothers Thai Unidade 3, Av. Antônio Honório Real, 882, Parque Igacaba, Araraquara" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                            <a class="map-route" href="https://www.google.com/maps/dir/?api=1&amp;destination=Av.+Ant%C3%B4nio+Hon%C3%B3rio+Real,+882,+Araraquara+-+SP,+14804-390" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-route"/></svg> Traçar rota</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="section-actions reveal">
+                    <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20qual%20unidade%20fica%20melhor%20para%20mim." class="btn-whats btn-pulse" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg>
+                        Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= RODAPÉ ================= -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#inicio" class="footer-logo" aria-label="Brothers Thai - voltar ao início">
+                <img src="./img/logo-bt.webp" alt="" width="72" height="72" loading="lazy">
+                <span>BROTHERS <span class="hl">THAI</span></span>
+            </a>
+            <p class="footer-tagline">Muay Thai e Jiu-Jitsu em Araraquara/SP</p>
+
+            <nav class="footer-nav" aria-label="Rodapé">
+                <a href="#sobre">Sobre</a>
+                <a href="#modalidades">Modalidades</a>
+                <a href="#kids">Kids</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#horarios">Horários</a>
+                <a href="#duvidas">Dúvidas</a>
+                <a href="#unidades">Unidades</a>
+            </nav>
+            <nav class="footer-nav footer-pages" aria-label="Aulas">
+                <a href="./muay-thai-araraquara/">Muay Thai em Araraquara</a>
+                <a href="./jiu-jitsu-araraquara/">Jiu-Jitsu em Araraquara</a>
+                <a href="./luta-infantil-araraquara/">Luta para crianças</a>
+            </nav>
+            <nav class="footer-nav footer-pages" aria-label="Unidades">
+                <a href="./unidade-santos-dumont-araraquara/">Unidade Santos Dumont</a>
+                <a href="./unidade-jardim-imperador-araraquara/">Unidade Jardim Imperador</a>
+                <a href="./unidade-parque-igacaba-araraquara/">Unidade Parque Igacaba</a>
+            </nav>
+
+            <address class="footer-units">
+                <span>Unidade 1 · Av. Alberto Santos Dumont, 199 · (16) 99793-3828</span>
+                <span>Unidade 2 · R. Maurício Galli, 3488 A, Jd. Imperador · (16) 99707-1255</span>
+                <span>Unidade 3 · Av. Antônio Honório Real, 882, Pq. Igacaba · (16) 99733-0265</span>
+            </address>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/brothers_thai_team/" class="social-btn insta-bg" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Brothers Thai"><svg class="icon" aria-hidden="true"><use href="#i-insta"/></svg></a>
+                <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site." class="social-btn whats-bg" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Brothers Thai"><svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg></a>
+            </div>
+
+            <div class="footer-legal">
+                <p>Este site não usa cookies próprios nem coleta dados pessoais. Mapas fornecidos pelo Google Maps. · <a href="./politica-de-privacidade/">Política de privacidade</a></p>
+                <p>© <span id="year">2026</span> Brothers Thai. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Flutuantes (desktop/tablet) -->
+    <div class="floating-buttons">
+        <button type="button" class="float-btn back-to-top" id="back-to-top" aria-label="Voltar ao topo"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg></button>
+        <a href="https://www.instagram.com/brothers_thai_team/" class="float-btn insta-bg" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Brothers Thai"><svg class="icon" aria-hidden="true"><use href="#i-insta"/></svg></a>
+        <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." class="float-btn whats-bg" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp"><svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg></a>
+    </div>
+
+    <!-- Barra fixa (celular) -->
+    <div class="mobile-cta">
+        <a href="https://www.instagram.com/brothers_thai_team/" class="m-insta" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-insta"/></svg> Instagram</a>
+        <a href="https://wa.me/5516997649205?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental." class="m-whats" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-whats"/></svg> Agendar aula</a>
+    </div>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>

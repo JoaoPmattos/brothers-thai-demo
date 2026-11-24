@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://brothersthai.netlify.app/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/og-brothers-thai.jpg</image:loc></image:image>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/mestre-leandro.webp</image:loc></image:image>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/mestre-rafael.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/muay-thai-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/slide-muaythai-1152.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/jiu-jitsu-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/slide-jiu-1200.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/luta-infantil-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <image:image><image:loc>https://brothersthai.netlify.app/img/kids-900.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/unidade-santos-dumont-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/unidade-jardim-imperador-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/unidade-parque-igacaba-araraquara/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://brothersthai.netlify.app/politica-de-privacidade/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,21 @@
+{
+  "name": "Brothers Thai – Muay Thai e Jiu-Jitsu em Araraquara",
+  "short_name": "Brothers Thai",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "icons": [
+    {
+      "src": "./img/logo-bt.webp",
+      "sizes": "150x150",
+      "type": "image/webp"
+    },
+    {
+      "src": "./img/logo-bt.jpg",
+      "sizes": "150x150",
+      "type": "image/jpeg"
+    }
+  ]
+}
