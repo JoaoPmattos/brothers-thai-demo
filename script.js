@@ -256,6 +256,11 @@
         }
     }
 
+    // Cartões de horário das páginas internas: destaca o dia de hoje na semana
+    if (today >= 1 && today <= 6) {
+        document.querySelectorAll(`.week-strip li[data-day="${today}"]`).forEach((li) => li.classList.add('is-today'));
+    }
+
     // ==========================================
     // SELO "AULA AGORA / PRÓXIMA AULA" (lê a própria grade de horários)
     // ==========================================
